@@ -14,7 +14,7 @@ header{
     padding: 10px 20px;
 }
 .my-nav ul li a{
-    color: #000000;
+    color: #242b70;
     font-weight: 500;
     font-size: 18px;
 }
@@ -41,6 +41,11 @@ h4{
     font-weight: 700;
     font-size: 40px;
     color: #FABE4C;
+}
+h5{
+    font-weight: bolder;
+    color: #242b70;
+
 }
 /* .top-section{
     min-height: 100%;
@@ -256,11 +261,11 @@ footer .container{
   @media screen and (max-width: 770px) {
 
     .green-btn{
-        padding: 25px 40px;
-        font-size: 30px;
+        padding: 20px 40px;
+        font-size: 25px;
     }
     h4{
-        font-size: 65px;
+        font-size: 45px;
     }
     main {
         margin-top: 25rem;
@@ -275,6 +280,6 @@ footer .container{
         font-size: 20px;
     }
     h5{
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 }
