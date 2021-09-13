@@ -152,7 +152,8 @@ footer .container{
   }
 
 .social-icons{
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
   }
   .social-icons .icon{
     margin: 0 20px;
@@ -281,5 +282,14 @@ footer .container{
     }
     h5{
         font-size: 2rem;
+    }
+}
+@media screen and (max-width:425px) {
+    .green-btn{
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+    h4{
+        font-size: 30px;
     }
 }
