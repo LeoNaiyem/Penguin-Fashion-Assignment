@@ -142,7 +142,7 @@ footer .container{
 .social-media{
     background-color:#f1f1f1;
     display: grid;
-    height: 100px;
+    min-height: 100px;
     width: 100%;
     place-items: center;
     border-radius: .5rem;
