@@ -39,7 +39,7 @@ h2{
 }
 h4{
     font-weight: 700;
-    font-size: 36px;
+    font-size: 40px;
     color: #FABE4C;
 }
 /* .top-section{
@@ -64,9 +64,9 @@ h4{
     color: #363958;
 }
 .green-btn{
-    padding: 12px 20px;
+    padding: 20px 40px;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     background-image: linear-gradient(90deg, #A4BC46, #85A019);
     border-radius: 8px;
     border: none;
@@ -137,10 +137,13 @@ footer .container{
 .social-media{
     background-color:#f1f1f1;
     display: grid;
-    height: 90px;
+    height: 100px;
     width: 100%;
     place-items: center;
     border-radius: .5rem;
+  }
+  a{
+      text-decoration: none;
   }
 
 .social-icons{
@@ -236,3 +239,42 @@ footer .container{
   .social-icons .youtube:hover .icon-name:before{
     background: #DE463B;
   }
+
+
+
+
+  @media screen and (min-width:770px) and (max-width: 990px) {
+
+        .green-btn{
+            padding: 10px 10px;
+            font-size: 12px;
+        }
+        h4{
+            font-size: 15px;
+        }
+  }
+  @media screen and (max-width: 770px) {
+
+    .green-btn{
+        padding: 25px 40px;
+        font-size: 30px;
+    }
+    h4{
+        font-size: 65px;
+    }
+    main {
+        margin-top: 25rem;
+    }
+    .about-us-area{
+        flex-direction: column-reverse;
+    }
+    .about-us-area .card{
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 1.75rem;
+    }
+}
