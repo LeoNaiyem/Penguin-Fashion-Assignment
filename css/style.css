@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* body{
+   
+} */
+header{
+    height: 700px;
+}
+.my-nav ul li{
+    padding: 10px 20px;
+}
+.my-nav ul li a{
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+}
+.my-nav ul li a:hover , .active{
+    border-bottom: 2px solid rgb(1, 39, 1) !important;
+}
+.logo img{
+    width: 280px;
+}
+.title-text{
+    margin-top: 25px;
+    padding: 45px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    font-size: 40px;
+    color: #FABE4C;
+}
+h4{
+    font-weight: 700;
+    font-size: 36px;
+    color: #FABE4C;
+}
+/* .top-section{
+    min-height: 100%;
+    display: block;
+    margin-bottom: 5rem;
+} */
+.title-text{
+    margin-top: 5rem;
+}
+.title-text h1{
+    font-weight: 500;
+    font-size: 80px;
+}
+.title-text p{
+    font-family: roboto;
+}
+.title-text h1:first-child{
+    color: #FABE4C;
+}
+.title-text h1:nth-child(2){
+    color: #363958;
+}
+.green-btn{
+    padding: 12px 20px;
+    color: white;
+    font-size: 14px;
+    background-image: linear-gradient(90deg, #A4BC46, #85A019);
+    border-radius: 8px;
+    border: none;
+    font-family: roboto;
+}
+
+.green-btn:hover{
+    background-image: linear-gradient(90deg, #8ba036, #738b11);
+
+}
+.fa-icon{
+    margin-right: 10px;
+}
+
+.model img{
+    width: 80%;
+
+}
+
+main{
+    margin-top: auto;
+}
+
+.card, .f-right{
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px lightgray;
+}
+.card:hover, .f-right:hover{
+    box-shadow: 5px 5px 15px lightgray;
+    transform: scale(.95);
+    transition: transform .3s ease-in-out;
+}
+.card img{
+    height: 280px;
+    width: 100%;
+    object-fit: contain;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    background-color: #F1F1F1;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.card .row .col-md-4 img{
+    height: 82px;
+    width: 78px;
+
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+footer .container{
+    height: 100vh;
+    margin-top: 7rem;
+}
+
+.f-right img{
+    padding: 5%;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.social-media{
+    background-color:#f1f1f1;
+    display: grid;
+    height: 90px;
+    width: 100%;
+    place-items: center;
+    border-radius: .5rem;
+  }
+
+.social-icons{
+    display: inline-flex;
+  }
+  .social-icons .icon{
+    margin: 0 20px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .social-icons .icon span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .social-icons .icon span i{
+    line-height: 60px;
+    font-size: 25px;
+  }
+  .social-icons .icon .icon-name{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .social-icons .icon:hover .icon-name{
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .icon .icon-name:before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    left: 50%;
+    bottom: -6px;
+    transform: translateX(-50%) rotate(45deg);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .social-icons .icon:hover span{
+    color: #fff;
+  }
+  .social-icons .icon:hover span,
+  .social-icons .icon:hover .icon-name{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  }
+  .social-icons .facebook:hover span,
+  .social-icons .facebook:hover .icon-name,
+  .social-icons .facebook:hover .icon-name:before{
+    background: #3B5999;
+  }
+  .social-icons .twitter:hover span,
+  .social-icons .twitter:hover .icon-name,
+  .social-icons .twitter:hover .icon-name:before{
+    background: #46C1F6;
+  }
+  .social-icons .instagram:hover span,
+  .social-icons .instagram:hover .icon-name,
+  .social-icons .instagram:hover .icon-name:before{
+    background: #e1306c;
+  }
+  .social-icons .github:hover span,
+  .social-icons .github:hover .icon-name,
+  .social-icons .github:hover .icon-name:before{
+    background: #333;
+  }
+  .social-icons .youtube:hover span,
+  .social-icons .youtube:hover .icon-name,
+  .social-icons .youtube:hover .icon-name:before{
+    background: #DE463B;
+  }
