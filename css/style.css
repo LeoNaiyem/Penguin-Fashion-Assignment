@@ -292,4 +292,13 @@ footer .container{
     h4{
         font-size: 30px;
     }
+    .logo img{
+        width: 200px;
+    }
+    .navbar-toggler-icon{
+        font-size: 15px;
+    }
+    .navbar-toggler{
+        padding: .15rem .5rem;
+    }
 }
