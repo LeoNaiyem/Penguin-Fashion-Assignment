@@ -91,9 +91,9 @@ h5{
 
 }
 
-main{
+/* main{
     margin-top: auto;
-}
+} */
 
 .card, .f-right{
     border: none;
@@ -269,7 +269,7 @@ footer .container{
         font-size: 45px;
     }
     main {
-        margin-top: 25rem;
+        margin-top: 24rem;
     }
     .about-us-area{
         flex-direction: column-reverse;
@@ -292,6 +292,9 @@ footer .container{
     .green-btn{
         padding: 10px 15px;
         font-size: 15px;
+    }
+    main {
+        margin-top: 15rem;
     }
     P{
         font-size: 15px;
